@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_margin="16dp"
+android:orientation="vertical">
+
+
+<EditText
+    android:id="@+id/first_name_field"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/record_first_name_hint"/>
+
+<EditText
+    android:id="@+id/last_name_field"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/record_last_name_hint"/>
+
+<EditText
+    android:id="@+id/course_field"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/record_course_hint"/>
+
+
+<EditText
+    android:id="@+id/notes_field"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left|top"
+    android:lines="4"
+    android:inputType="textMultiLine"
+    android:maxLength="2000"
+    android:hint="@string/record_notes_hint"/>
+
+<Button
+    android:id="@+id/date_field"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+<CheckBox
+    android:id="@+id/dealt_with_checkbox"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/record_dealt_with_label"/>
+
+</LinearLayout>
